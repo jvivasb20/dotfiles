@@ -123,10 +123,10 @@ export NVM_DIR="$HOME/.nvm"
 . "$HOME/.local/bin/env"
 
 # Add fvm to PATH
-export PATH="/home/vivas/fvm/bin:$PATH"
+export PATH="$HOME/fvm/bin:$PATH"
 
 # pnpm
-export PNPM_HOME="/home/vivas/.local/share/pnpm"
+export PNPM_HOME="$HOME/.local/share/pnpm"
 case ":$PATH:" in
   *":$PNPM_HOME:"*) ;;
   *) export PATH="$PNPM_HOME:$PATH" ;;
