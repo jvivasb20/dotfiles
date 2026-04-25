@@ -1,0 +1,130 @@
+{
+  "[dockercompose]": {
+    "editor.autoIndent": "advanced",
+    "editor.insertSpaces": true,
+    "editor.quickSuggestions": {
+      "comments": false,
+      "other": true,
+      "strings": true
+    },
+    "editor.tabSize": 2
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.ruff": "explicit",
+      "source.organizeImports.ruff": "explicit"
+    },
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cursor.composer.shouldChimeAfterChatFinishes": true,
+  "dart.debugExternalPackageLibraries": false,
+  "dart.debugSdkLibraries": false,
+  "dart.devToolsBrowser": "default",
+  "dart.lineLength": 120,
+  "dart.warnWhenEditingFilesOutsideWorkspace": false,
+  "editor.formatOnSave": true,
+  "editor.hover.delay": 1000,
+  "editor.inlineSuggest.enabled": true,
+  "editor.linkedEditing": true,
+  "editor.minimap.enabled": false,
+  "editor.rulers": [
+    120
+  ],
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.sortOrder": "type",
+  "extensions.ignoreRecommendations": true,
+  "files.eol": "\n",
+  "git.autofetch": true,
+  "git.branchProtectionPrompt": "alwaysCommit",
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.ignoreMissingGitWarning": true,
+  "git.openRepositoryInParentFolders": "never",
+  "githubPullRequests.createOnPublishBranch": "never",
+  "githubPullRequests.fileListLayout": "flat",
+  "githubPullRequests.pullBranch": "never",
+  "gitlens.advanced.messages": {
+    "suppressIntegrationDisconnectedTooManyFailedRequestsWarning": true
+  },
+  "gitlens.ai.gitkraken.model": "gemini:gemini-2.0-flash",
+  "gitlens.ai.model": "gitkraken",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+  "gitlens.plusFeatures.enabled": false,
+  "gitlens.rebaseEditor.ordering": "asc",
+  "gitlens.views.commitDetails.files.layout": "list",
+  "html.completion.attributeDefaultValue": "singlequotes",
+  "js/ts.updateImportsOnFileMove.enabled": "always",
+  "mypy-type-checker.args": [
+    "--config-file=${workspaceFolder}/pyproject.toml"
+  ],
+  "mypy-type-checker.path": [
+    "${workspaceFolder}/venv/bin/mypy"
+  ],
+  "mypy-type-checker.preferDaemon": true,
+  "mypy-type-checker.reportingScope": "workspace",
+  "python.envFile": "${workspaceFolder}/.env",
+  "python.languageServer": "None",
+  "python.terminal.activateEnvironment": true,
+  "python.testing.autoTestDiscoverOnSaveEnabled": true,
+  "python.testing.cwd": "${workspaceFolder}/tests",
+  "python.testing.pytestEnabled": true,
+  "security.workspace.trust.banner": "always",
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
+  "workbench.editor.enablePreview": false,
+  "workbench.editorAssociations": {
+    "git-rebase-todo": "default"
+  },
+  "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
+  "workbench.preferredDarkColorTheme": "Visual Studio Dark",
+  "workbench.startupEditor": "none",
+  "python.terminal.shellIntegration.enabled": false,
+  "json.schemaDownload.trustedDomains": {
+    "https://schemastore.azurewebsites.net/": true,
+    "https://raw.githubusercontent.com/microsoft/vscode/": true,
+    "https://raw.githubusercontent.com/devcontainers/spec/": true,
+    "https://www.schemastore.org/": true,
+    "https://json.schemastore.org/": true,
+    "https://json-schema.org/": true,
+    "https://developer.microsoft.com/json-schemas/": true,
+    "https://biomejs.dev": true
+  },
+  "python.defaultInterpreterPath": "/bin/python3",
+  "cursor.terminal.usePreviewBox": true,
+  "diffEditor.renderSideBySide": false,
+  "terminal.integrated.defaultProfile.linux": "zsh"
+}

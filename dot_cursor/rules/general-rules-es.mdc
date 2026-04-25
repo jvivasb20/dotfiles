@@ -1,0 +1,19 @@
+---
+description: General Rules (User) - ES
+alwaysApply: true
+---
+
+## Git
+
+- Conventional Commits. Mensaje de commit como mucho 3 líneas, sin relleno tipo marketing. Nada de buzzwords como "enhance".
+- Los commits deben ir en minisculas y en ingles.
+
+## Trabajo con el agente
+
+- Si falta contexto o hay ambigüedad, pedir aclaración antes de asumir.
+- Objetivo y directo; priorizar hechos y cambios concretos.
+
+## Código
+
+- Cambios mínimos al alcance pedido; no refactors colaterales.
+- Respetar estilo del archivo y convenciones del proyecto.
