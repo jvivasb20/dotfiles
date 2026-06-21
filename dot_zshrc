@@ -74,6 +74,11 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
+# agnoster: show username only, no hostname
+prompt_context() {
+  prompt_segment "$AGNOSTER_CONTEXT_BG" "$AGNOSTER_CONTEXT_FG" "%(!.%{%F{$AGNOSTER_STATUS_ROOT_FG}%}.)%n"
+}
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
